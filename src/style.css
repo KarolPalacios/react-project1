@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    width: 35rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.author{
+    text-align: end;
+}
+
+.card button {
+    float: right;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.card p{
+    width: 30rem;
+}
+
+.card p i{
+    margin-right: 1rem;
+}
